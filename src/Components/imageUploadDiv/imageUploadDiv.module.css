@@ -1,0 +1,42 @@
+.imageContainer{
+    width: 100%;
+    height: 12rem;
+    background-color: rgb(242, 242, 242);
+    display: flex;
+    border-radius: 0.3rem;
+    transition: all 0.12s linear;
+}
+
+.imageUploadDiv{
+    margin: auto;
+    display: flex;
+    width: 15rem;
+    height: 10rem;
+    align-items: center;
+    background-color: rgb(234, 234, 234);
+    border-radius: 0.3rem;
+    border: 2px dotted grey;
+    box-sizing: border-box;
+    transition: all 0.12s linear;
+}
+
+.imageUploadDiv:hover{
+    transform: scale(1.02);
+    box-shadow: 0.1px 0.1px 5px 0.5px black;
+    outline: none;
+    border: 0.5px dotted black;
+}
+
+.svgUpload{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-bottom: 0.75rem;
+    --tw-text-opacity: 1;
+    color: rgb(156 163 175 / var(--tw-text-opacity));
+    margin: auto;
+}
+
+.selectImage{
+    margin-bottom: 0.5rem;
+    color: grey;
+}
